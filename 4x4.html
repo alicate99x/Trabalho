@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <link rel="stylesheet" href="estilo.css">
+    <style>
+   
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORG AP</title>
+</head>
+<body>
+  <header>
+
+
+    <div class="texto">
+        <h1>A MELHOR ORG DO CENÁRIO</h1>
+        <p>Só os melhores analistas do Brasil</p>
+    </div>
+
+
+    <nav class="menu">
+        <a href="inicial.html">Início</a>
+        <a href="1x1.html">1x1</a>
+        <a href="2x2.html">2x2</a>
+        <a href="3x3.html">3x3</a>
+        <a href="4x4.html">4x4</a>
+        <a href="regras.html">Regras</a>
+    </nav>
+
+
+</header>
+
+
+<section class="fila">
+
+
+    <h1>FILAS 4x4</h1>
+
+
+    <p>
+        Escolha uma sala abaixo para entrar na fila.
+        Quando outro jogador entrar na mesma sala,
+        a partida estará pronta para começar.
+    </p>
+
+
+</section>
+<div class="cards">
+
+
+    <div class="card">
+
+
+        <h2>Sala da Falência</h2>
+        <p>Valor: R$ 20,00</p>
+        <p id="jogadores5">Jogadores: 0/8</p>
+        <p>Valor por squad: R$ 10,50</p>
+
+
+        <button onclick="entrarFila('Falência')">
+            Entrar na fila
+        </button>
+
+
+    </div>
+
+
+    <div class="card">
+
+
+        <h2>Sala da Fome</h2>
+        <p>Valor: R$ 50,00</p>
+        <p id="jogadores5">Jogadores: 0/8</p>
+        <p>Valor por squad: R$ 26,00</p>
+
+
+        <button onclick="entrarFila('Fome')">
+            Entrar na fila
+        </button>
+
+
+    </div>
+
+
+    <div class="card">
+
+
+        <h2>Sala da Necessidade</h2>
+        <p>Valor: R$ 100,00</p>
+        <p id="jogadores5">Jogadores: 0/8</p>
+        <p>Valor por squad: R$ 50,50</p>
+
+
+        <button onclick="entrarFila('Necessidade')">
+            Entrar na fila
+        </button>
+
+
+    </div>
+
+
+</div>
+
+
+<p id="status"></p>
+
+
+<script src="script.js"></script>
